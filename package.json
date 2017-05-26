@@ -1,0 +1,26 @@
+{
+  "name": "xss",
+  "version": "0.0.1",
+  "description": "xss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "3.21.2",
+    "jade": "^1.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szy1000/xss.git"
+  },
+  "keywords": [
+    "xss"
+  ],
+  "author": "szy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/szy1000/xss/issues"
+  },
+  "homepage": "https://github.com/szy1000/xss#readme"
+}
