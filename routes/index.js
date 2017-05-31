@@ -21,6 +21,11 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express',xss: req.query.xss });
 });
 
+router.get('/xss', function(req, res, next) {
+  res.render('xss', { title: 'Express' });
+});
+
+
 router.get('/comment', function(req,res,next){
 	comments.v = html_encode(req.query.comment);
 })
