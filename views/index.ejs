@@ -7,7 +7,9 @@
   <body>
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
-
+		<div>
+			<%- xss %>
+		</div>
     <textarea name="name" id="" cols="30" rows="10" id="txt">
     	<p>sks <img src="null" alt="" onerror="alert(1)"></p>
     </textarea>

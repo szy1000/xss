@@ -17,7 +17,8 @@ function html_encoude(str){
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+	res.set('X-XSS-Protection',0);   //关闭XSS攻击
+  res.render('index', { title: 'Express',xss: req.query.xss });
 });
 
 router.get('/comment', function(req,res,next){
